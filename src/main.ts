@@ -1,11 +1,10 @@
 import "./style.css";
-import typescriptLogo from "./typescript.svg";
-import viteLogo from "/vite.svg";
-import { setupCounter } from "./counter.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-  <div>
-    <p>test</p>
+  <div class="fixed bottom-0 right-0">
+    <div class="h-[400px] w-[400px] bg-blue-400 content-end">
+      <p class="text-blue-500">test</p>
+    </div>
   </div>
 `;
 
